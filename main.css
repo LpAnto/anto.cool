@@ -16,6 +16,11 @@
   margin-right: auto;
   width: 50%;
 }
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
 p {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: white;
