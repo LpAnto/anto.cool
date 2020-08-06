@@ -1,7 +1,3 @@
-<p id="compteur"></p>
-
-<script>
-
 var DatecountDown = new Date("Dec 20, 2021 23:00:00").getTime();
 
 var x = setInterval(function() {
@@ -18,7 +14,7 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
   document.getElementById("compteur").innerHTML = jours + "d " + heures + "h "
-  + minutes + "m " + secondes + "s ";
+  + minutes + "m " + secondes + "s </h1>";
 
   // If the count down is finished, write some text
   if (distance < 0) {
@@ -26,4 +22,3 @@ var x = setInterval(function() {
     document.getElementById("compteur").innerHTML = "C'est l'hiver !!! olala il fait froid.";
   }
 }, 1000);
-</script>
