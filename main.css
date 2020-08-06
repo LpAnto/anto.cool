@@ -12,9 +12,14 @@ h2 {
 }
 h3 {
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	color: white;
+	color: grey;
 }
 p {
 	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+.hiver p {
+  font-size: 30px;
+  	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: white;
 }
