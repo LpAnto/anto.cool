@@ -1,3 +1,21 @@
+.hiver p {
+	font-size: 30px;
+  	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+.hiver h1 {
+	font-size: 40px;
+}
+.endofpage h1{
+	text-align: center;
+	font-size: 45px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 p {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: white;
@@ -18,22 +36,4 @@ h3 {
 p {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: white;
-}
-.hiver p {
-	font-size: 30px;
-  	font-family: "Comic Sans MS", cursive, sans-serif;
-	color: white;
-}
-.hiver h1 {
-	font-size: 40px;
-}
-.fin2page h1{
-	text-align: center;
-	font-size: 45px;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
