@@ -1,2 +1,2 @@
 # anto.cool
-anto.cool very cool site
+anto.cool very cool website
