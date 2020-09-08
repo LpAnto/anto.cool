@@ -12,10 +12,16 @@
 }
 .center {
 	display: block;
-	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	margin-left: auto;
 }
+
+.product .img-responsive {
+    margin: 0 auto;
+}
+
+#moi { margin-top: 100px; }
+
 body {
 	background-size: cover;
 	background-repeat: no-repeat;
