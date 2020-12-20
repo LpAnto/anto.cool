@@ -7,7 +7,7 @@ var x = setInterval(function() {
   var distance = DatecountDown - DateNow;
 
   var d = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)+1);
   var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var s = Math.floor((distance % (1000 * 60)) / 1000);
   var mil = (distance % (1000))
