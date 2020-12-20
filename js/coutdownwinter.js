@@ -12,10 +12,11 @@ var x = setInterval(function() {
   var s = Math.floor((distance % (1000 * 60)) / 1000);
   var mil = (distance % (1000))
 
+  if (distance > 0) {
   document.getElementById("compteur").innerHTML = d + " jours " + h + " heures "
-  + m + " minutes " + s + " secondes" + mil + " millisecondes" + "</h1>"; },1);
-
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("compteur").innerHTML = "C'est l'hiver !!! olala il fait froid.";
+  + m + " minutes " + s + " secondes" + mil + " millisecondes" + "</h1>"; 
   }
+  else {
+    document.getElementById("compteur").innerHTML = "C'est l'hiver !!! olala il fait froid.";
+  }},1);
+  
